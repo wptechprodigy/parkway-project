@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #ffe4c4;
 	width: 100%;
@@ -11,7 +17,7 @@ body {
 	-moz-box-shadow: 0px 5px 4px 1px rgba(179, 179, 179, 0.8);
 	box-shadow: 0px 5px 4px 1px rgba(179, 179, 179, 0.8);
 	border-bottom: 1px solid rgba(179, 179, 179, 0.9);
-	margin-bottom: 80px;
+	margin: 30px auto;
 }
 
 .header__title {
@@ -27,12 +33,59 @@ body {
 	align-items: center;
 }
 
+.main {
+	margin-top: 40px;
+}
+
+/* Courtesy w3schools.com */
+/* Chrome, Safari, Edge, Opera */
+.input-area__input::-webkit-outer-spin-button,
+.input-area__input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+.input-area__input {
+	-moz-appearance: textfield;
+}
+
+/* Ends here */
+
 .input-area {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .input-area__input {
 	margin-bottom: 40px;
+	padding: 15px 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	width: 125%;
+	text-transform: capitalize;
+}
+
+.main__submitbutton {
+	border: 1px solid #fab45f;
+	border-radius: 5px;
+	padding: 10px 25px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	background-color: #fab45f;
+	transition: ease-in-out 0.5s;
+	letter-spacing: 0.2rem;
+}
+
+.main__submitbutton:hover {
+	background-color: #fa8d08;
+	border: 1px solid #fa8d08;
+}
+
+.display {
+	/* width: ; */
 }
 
 
