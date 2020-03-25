@@ -203,8 +203,8 @@ if (calculateButton) {
   calculateButton.addEventListener('click', function () {
     var amount = parseFloat(transactionInput.value);
 
-    if (isNaN(amount)) {
-      alert('Please provide a number');
+    if (isNaN(amount) || amount < 1) {
+      alert('Please provide a valid transfer amount');
       transactionInput.value = '';
       if (displayArea) displayArea.innerText = '';
       return;

@@ -13,8 +13,8 @@ if (calculateButton) {
 	calculateButton.addEventListener('click', () => {
     const amount: number = parseFloat(transactionInput.value);
 
-		if (isNaN(amount)) {
-      alert('Please provide a number');
+		if (isNaN(amount) || amount < 1) {
+      alert('Please provide a valid transfer amount');
 
       transactionInput.value = '';
 
