@@ -1,4 +1,4 @@
-# Parkway Project - Transfer fees calculator
+# Parkway Project - Transaction Fees Calculator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d852f4e7-8dd1-4a54-b9f3-926b0e2124f1/deploy-status)](https://app.netlify.com/sites/transferfeecalculator/deploys)
 
