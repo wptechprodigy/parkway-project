@@ -206,7 +206,7 @@ if (calculateButton) {
     if (isNaN(amount) || amount < 1) {
       alert('Please provide a valid transfer amount');
       transactionInput.value = '';
-      if (displayArea) displayArea.innerText = '';
+      if (displayArea) displayArea.innerText = 'Result goes here...';
       return;
     }
 

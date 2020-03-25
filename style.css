@@ -85,5 +85,17 @@ body {
 }
 
 .display {
-	/* width: ; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+	-webkit-box-shadow: 5px 5px 5px 1px rgba(179, 179, 179, 0.8);
+	-moz-box-shadow: 5px 5px 5px 1px rgba(179, 179, 179, 0.8);
+	box-shadow: 5px 5px 5px 1px rgba(179, 179, 179, 0.8);
+	padding: 20px;
+}
+
+.display-result {
+	font-size: 1.1rem;
 }

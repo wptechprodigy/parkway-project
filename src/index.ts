@@ -18,7 +18,7 @@ if (calculateButton) {
 
 			transactionInput.value = '';
 
-			if (displayArea) displayArea.innerText = '';
+			if (displayArea) displayArea.innerText = 'Result goes here...';
 			return;
 		}
 
